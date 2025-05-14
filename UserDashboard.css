@@ -1,0 +1,105 @@
+﻿/* CSS/UserDashboard.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    padding: 0;
+}
+
+.nav-tabs {
+    padding: 0 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+    .nav-tabs .nav-link {
+        border: none;
+        color: #495057;
+        font-weight: 500;
+        padding: 12px 20px;
+    }
+
+        .nav-tabs .nav-link.active {
+            color: #0d6efd;
+            background-color: white;
+            border-bottom: 3px solid #0d6efd;
+        }
+
+.tab-content {
+    padding: 20px;
+}
+
+.content-panel {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+}
+
+.table {
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+    .table th {
+        background-color: #0d6efd;
+        color: white;
+        padding: 12px 15px;
+        text-align: left;
+    }
+
+    .table td {
+        padding: 12px 15px;
+        border-bottom: 1px solid #dee2e6;
+        vertical-align: middle;
+    }
+
+    .table tr:hover {
+        background-color: #f1f7ff;
+    }
+
+.btn-outline-light:hover {
+    color: #0d6efd !important;
+}
+
+.alert {
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content-panel .row > div {
+        margin-bottom: 10px;
+    }
+
+    .content-panel .btn {
+        width: 100%;
+    }
+}
+.btnLogout {
+    background-color: #dc3545 !important; /* Red background */
+    color: white !important; /* White text */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+    .btnLogout:hover {
+        background-color: #c82333 !important; /* Darker red on hover */
+        color: white !important;
+    }
